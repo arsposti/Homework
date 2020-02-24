@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 public class les6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Integer [] mas = new Integer[sc.nextInt()];
+       int [] mas = new int [sc.nextInt()];
 
         for ( int i =0; i<mas.length; i++){
             mas[i] = (int) (Math.random()*15);
@@ -22,5 +22,6 @@ public class les6 {
             mas[i]=box;
         }
         System.out.println(Arrays.toString(mas));
+
     }
 }
